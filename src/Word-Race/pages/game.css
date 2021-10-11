@@ -1,0 +1,86 @@
+.text-card {
+  position: fixed;
+  background: #dcdcdc;
+  border-radius: 10px;
+  left: 28%;
+  top: 35%;
+  height: 10%;
+  width: 44%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-card {
+  padding: 2px 16px;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  text-emphasis-color: black;
+}
+
+/* shape card css */
+
+.shape-section {
+  position: relative;
+  margin-top: 70px;
+  padding: 40px 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px;
+}
+
+.containers {
+  margin: 10px auto;
+  text-align: center;
+  width: 980px;
+}
+
+.diamond-shape {
+  background: #8a2be2;
+  height: 60px;
+  text-align: center;
+  transform: rotate(45deg);
+  width: 60px;
+}
+
+.trapez-shape {
+  border-bottom: 60px solid #32cd32;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  height: 0px;
+  width: 80px;
+}
+
+.round-rectangle {
+  width: 130px;
+  height: 70px;
+  background: skyblue;
+  border-radius: 100px;
+}
+
+.item-count {
+  color: white;
+  display: table-cell;
+  height: 60px;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+  width: 60px;
+}
+
+.shape-text {
+  color: white;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}

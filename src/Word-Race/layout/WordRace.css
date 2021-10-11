@@ -1,0 +1,96 @@
+
+
+
+/* bar css */
+
+.top-bar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7%;
+    color: greenyellow;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.bottom-bar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
+    color: greenyellow;
+    padding-bottom: 1.8% ;
+    text-align: center;
+}
+
+
+/* top score css */
+
+#top-score {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 20px;
+    position: fixed;
+}
+
+#top-score td,
+#top-score th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#top-score tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#top-score tr:hover {
+    background-color: #ddd;
+}
+
+#top-score th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+/* statistics css */
+
+#stastics {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+    margin-left: 77%;
+    margin-top: 20px;
+    position: fixed;
+}
+
+#stastics td,
+#stastics th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#stastics tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#stastics tr:hover {
+    background-color: #ddd;
+}
+
+#stastics th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #aa4604;
+    color: white;
+}
